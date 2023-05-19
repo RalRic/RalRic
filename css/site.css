@@ -1,0 +1,246 @@
+@font-face {
+    font-family: Verdana, Tahoma, sans-serif;
+    src: url(/verdana-font-family/verdana.ttf);
+}
+
+html {
+    background: #FFFFFF;
+    max-width: 100vw;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    color: #141414;
+}
+
+body {
+    background: #FFFFFF;
+    max-width: 100vw;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    color: #141414;
+}
+.HT1{
+    color: #001047;
+}
+/*---------------------Header Section-------------------------*/
+.MNAV {
+    background-color: #001047;
+}
+.navbar-brand {
+    color: #ffc417;
+}
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 196, 23, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-dark .navbar-toggler{
+    border: solid #ffc417;
+}
+.NLk {
+        position: relative;
+}
+.NLk::after {
+    content: '';
+    opacity: 0;
+    transition: all 0.6s;
+    height: 2px;
+    width: 100%;
+    background-color: #001047;
+    transform: scaleX(0.1);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.NLk:hover::after {
+    opacity: 1;
+    transform: scaleX(0.8);
+}
+.LNAV li a {
+    color: #001047;
+    font-weight: 500;
+}
+.LNAV li .ACT {
+    background: #001047;
+    color: #FFFFFF;
+    font-weight: 550px;
+}
+.LOGIN{
+    text-decoration: none;
+    color: #676767;
+}
+.LOGIN:hover{
+    color: #001047;
+}
+
+
+/*---------------------Jumbotron-------------------------*/
+
+.OverlayJumbo{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.48);
+}
+.JTEXT {
+    position: relative;
+    color: #00ff87;
+    -webkit-text-stroke: 0.2vw #001047;
+}
+.BTN {
+    background-color: #00ff87;
+    color: #001047;
+    font-weight: 600;
+    border: #FFFFFF;
+    transition: all 0.2s;
+}
+.BTN:hover {
+    background-color: #F5F5F5;
+    color: #001047;
+}
+.BTN:active {
+    background-color: #F5F5F5;
+    border: #FFFFFF;
+}
+
+/*---------------------Section Two-------------------------*/
+.SNC {
+    text-align: justify;
+}
+.SNCline{ 
+    width: 50%;
+    height: 5px;
+    background-color: #001047;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/*---------------------Section Three-------------------------*/
+
+.SNC2{
+    background: rgb(0,16,71);
+    background: linear-gradient(27deg, rgba(0,16,71,1) 0%, rgba(9,30,102,1) 100%);
+}
+.SNCP{
+    text-align: justify;
+}
+.SNCline2{ 
+    width: 25%;
+    height: 5px;
+    background-color: #ffc417;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.SNCP2 {
+    color: #00ff87;
+}
+.RESPON{
+    width: 100%;
+    max-width: 600px;
+    height: 100%;
+    max-height: 400px;
+}
+/*---------------------Section Four-------------------------*/
+#map {
+    height: 450px;
+    background-color: #cccc;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%2300ff87'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%2300ff87'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.SNC3{
+    color: #001047;
+}
+/*---------------------Footer Section-------------------------*/
+
+footer {
+    background: #00ff87;
+}
+.BTop {
+    background-color: #001047;
+    color: #ffc417;
+    border-top: 2px solid #ffc417;
+    font-family: 700;
+}
+/*About*/
+.SNCline3{ 
+    width: 50%;
+    height: 5px;
+    background-color:#ffc417;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+/*Dev Clusters*/
+.SNC4{
+background-color: #001047;
+color: #FFFFFF;
+min-height: 160px;
+width: auto;
+transition: all 0.5s ease-in;
+
+}
+
+.SNC5{
+    background-color: #6e114d;
+    color: #F5F5F5;
+    min-height: 160px;
+    width: auto;
+    transition: all 0.5s ease-in;
+    
+}
+
+.BTN2 {
+    background-color: #00ff87;
+    color: #141414;
+    font-weight: 600;
+    border: #FFFFFF;
+    transition: all 0.2s ease-in;
+
+}
+.BTN2:hover {
+    background-color: #F5F5F5;
+    color: #001047;
+}
+.BTN2:active {
+    background-color: #F5F5F5;
+    border: #FFFFFF;
+}
+.BTN3 {
+    background-color: #00ff87;
+    color: #001047;
+    font-weight: 600;
+    border: #FFFFFF;
+    transition: all 0.2s ease-in;
+
+}
+.BTN3:hover {
+    background-color: #F5F5F5;
+    color: #001047;
+}
+.BTN3:active {
+    background-color: #F5F5F5;
+    border: #FFFFFF;
+}
+
+/*Programme*/
+.PH2{
+    color: #ffc417;
+
+}
+/*contact*/
+.cont2{
+    background-color: #001047;
+    height: 450px;
+}
+.cont3{
+    background-color: #f8f9fa;
+    height: 450px;
+}
